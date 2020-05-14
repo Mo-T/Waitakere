@@ -23,7 +23,7 @@
   background-image: url("Images/bmx-2858928_1920.jpg");
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 450px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -48,7 +48,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #229D8A;
   padding: 0px 190px;
 }
 
@@ -74,12 +74,12 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #A34138;
   color: white;
 }
 
@@ -96,7 +96,7 @@
 
 footer {
 	text-align: left;
-	background-color: black;
+	background-color: #229D8A;
     padding: 3%;
 	font-family: 'Roboto Slab', serif;
 	padding: 15px 190px;
@@ -110,8 +110,8 @@ footer a,.p4 {
 }
 
 footer a:hover {
-	background-color: #4CAF50;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 footer img {
@@ -119,8 +119,7 @@ footer img {
 }
 
 footer a.active_2 {
-	background-color: black;
-		color: red;
+	color: #000;
 }
 
 table, th, td {
@@ -134,18 +133,50 @@ table {
 
 th {
 	height: 42px;
-    background-color: #4CAF50;
+    background-color: #229D8A;
 	font-size: 20px;
+	color: white;
+	text-align: center;
 }
 
 th, td {
 	padding: 10px;
-	text-align: left;
 	font-weight: bold;
 }
 
-th:hover {background-color: cadetblue;}
-td:hover {background-color: cadetblue;}
+td {
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+	color: #A34138;
+}
+
+h3 {
+	text-align: left;
+	color: #A34138;
+}
+
+.Google_Map {
+	width: 100%;
+	opacity: 1.0;
+}
+
+.Text_align {
+	text-align: center;
+}
+
+a.Yahoo_Link:hover { 
+	color: purple;
+}
+
+.Info, .contact {
+	text-align: center;
+}
+
+th:hover {background-color: #A4A39D;}
+td:hover {background-color: #A4A39D;}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
